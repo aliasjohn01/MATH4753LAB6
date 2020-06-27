@@ -2,4 +2,5 @@
 
 export(myboot2)
 export(mycltp)
+export(mymaxlik)
 export(myncurve)
