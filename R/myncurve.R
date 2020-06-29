@@ -3,9 +3,9 @@
 #' Takes parameters mu, sigma and a to give a normal distribution curve with
 #' area from - infinity to (a).
 #'
-#' @param mu
-#' @param sigma
-#' @param a
+#' @param mu value of mean for the normal distribution function.
+#' @param sigma value of sigma for the normal distribution function
+#' @param a the upper limit of the interval.
 #'
 #' @return a normal distribution curve and probability from negative infinity
 #' to (a).

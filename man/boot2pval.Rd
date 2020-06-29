@@ -7,7 +7,17 @@
 boot2pval(x1, x2, conf.level = 0.95, iter = 3000, mudiff = 0, test = "two")
 }
 \arguments{
-\item{test}{}
+\item{x1}{a random sample}
+
+\item{x2}{a random sample}
+
+\item{conf.level}{the percentage of confidence level for the two samples}
+
+\item{iter}{number of iterations}
+
+\item{mudiff}{the mean difference between the mean of the two samples}
+
+\item{test}{The type of t.test}
 }
 \value{
 a hitogram of the tsat based on the parameters provided to the

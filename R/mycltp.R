@@ -3,10 +3,10 @@
 #' Takes size (n), number of iterations (iter) and lambda as parameters in order
 #' to produce a Poisson Probability Distribution barplot.
 #'
-#' @param n
-#' @param iter
-#' @param lambda
-#' @param ...
+#' @param n The size of the sample
+#' @param iter number of iterations
+#' @param lambda the value for Lambda of the probability distribution.
+#' @param ... other parameters can be applied
 #'
 #' @return a  Poisson Probability Distribution barplot
 #' @export

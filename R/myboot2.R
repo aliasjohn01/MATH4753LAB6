@@ -3,17 +3,18 @@
 #' Uses the bootstrap simulation technique to find the confidence interval of
 #' the mean statistic for a given sample.
 #'
-#' @param iter
-#' @param x
-#' @param fun
-#' @param alpha
-#' @param cx
-#' @param ...
+#' @param iter number of iterations
+#' @param x a random sample
+#' @param fun the type of function
+#' @param alpha the value for alpha
+#' @param cx a default value of 1.5 has been input for this function
+#' @param ... other parameters can also be applied
 #'
 #' @return a histogram with the confidence interval
 #' @export
 #'
 #' @examples  myboot2(x=c(5,6,3,4,5,68,9,77,66,46,7,88,9), alpha=0.05, col=rainbow(11))
+#'
 myboot2<-function(iter=10000,x,fun="mean",alpha,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
 

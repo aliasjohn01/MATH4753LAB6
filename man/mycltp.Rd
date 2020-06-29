@@ -7,7 +7,13 @@
 mycltp(n, iter, lambda = 10, ...)
 }
 \arguments{
-\item{...}{}
+\item{n}{The size of the sample}
+
+\item{iter}{number of iterations}
+
+\item{lambda}{the value for Lambda of the probability distribution.}
+
+\item{...}{other parameters can be applied}
 }
 \value{
 a  Poisson Probability Distribution barplot
@@ -17,5 +23,6 @@ Takes size (n), number of iterations (iter) and lambda as parameters in order
 to produce a Poisson Probability Distribution barplot.
 }
 \examples{
+mycltp(20,10000)
 
 }

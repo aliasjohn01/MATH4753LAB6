@@ -3,8 +3,8 @@
 #' Takes the size of the sample and the percentage of probability as parameters
 #' in order to produce a confidence interval as required.
 #'
-#' @param x
-#' @param p
+#' @param x a random sample
+#' @param p  percentage of probability
 #'
 #' @return a confidence interval with a lower and upper limit.
 #' @export

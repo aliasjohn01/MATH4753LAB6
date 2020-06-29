@@ -5,12 +5,12 @@
 #' of test the t.test should conduct as parameters and plots a histogram of the
 #' tstat.
 #'
-#' @param x1
-#' @param x2
-#' @param conf.level
-#' @param iter
-#' @param mudiff
-#' @param test
+#' @param x1 a random sample
+#' @param x2 a random sample
+#' @param conf.level the percentage of confidence level for the two samples
+#' @param iter number of iterations
+#' @param mudiff the mean difference between the mean of the two samples
+#' @param test The type of t.test
 #'
 #' @return a hitogram of the tsat based on the parameters provided to the
 #' function.

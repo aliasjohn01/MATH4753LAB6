@@ -7,7 +7,9 @@
 myci(x, p)
 }
 \arguments{
-\item{p}{}
+\item{x}{a random sample}
+
+\item{p}{percentage of probability}
 }
 \value{
 a confidence interval with a lower and upper limit.
@@ -15,4 +17,8 @@ a confidence interval with a lower and upper limit.
 \description{
 Takes the size of the sample and the percentage of probability as parameters
 in order to produce a confidence interval as required.
+}
+\examples{
+set.seed(23);x = rnorm(30,mean=10,sd=12)
+myci(x,0.95)
 }

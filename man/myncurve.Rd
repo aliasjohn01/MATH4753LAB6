@@ -7,7 +7,11 @@
 myncurve(mu, sigma, a)
 }
 \arguments{
-\item{a}{}
+\item{mu}{value of mean for the normal distribution function.}
+
+\item{sigma}{value of sigma for the normal distribution function}
+
+\item{a}{the upper limit of the interval.}
 }
 \value{
 a normal distribution curve and probability from negative infinity
@@ -16,4 +20,8 @@ to (a).
 \description{
 Takes parameters mu, sigma and a to give a normal distribution curve with
 area from - infinity to (a).
+}
+\examples{
+myncurve(10, 5, 6)
+
 }
