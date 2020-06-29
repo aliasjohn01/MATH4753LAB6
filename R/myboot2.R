@@ -13,7 +13,7 @@
 #' @return a histogram with the confidence interval
 #' @export
 #'
-#' @examples
+#' @examples  myboot2(x=c(5,6,3,4,5,68,9,77,66,46,7,88,9), alpha=0.05, col=rainbow(11))
 myboot2<-function(iter=10000,x,fun="mean",alpha,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
 

@@ -2,7 +2,7 @@
 #'
 #' This function takes the parameters and calculates the maximum liklihood
 #' for a binomial, poisson distribution or exponential function as required
-#' and plots it.
+#' that has repeated sampling from same distribution and plots it.
 #'
 #' @param lfun
 #' @param x
@@ -13,9 +13,8 @@
 #' @export
 #'
 #' @examples
+#' mymaxlik(x=c(9,9,1,9,9,9),param=seq(0,1,length=1000),lfun=logbin,xlab=expression(pi),main="Binomial",cex.main=2)
 #'
-#'max likelihood function
-#'For repeated sampling from same distribution
 mymaxlik=function(lfun,x,param,...){
   # how many param values are there?
   np=length(param)

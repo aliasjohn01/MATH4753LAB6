@@ -10,6 +10,8 @@
 #' @export
 #'
 #' @examples
+#' set.seed(23);x = rnorm(30,mean=10,sd=12)
+#' myci(x,0.95)
 myci=function(x,p){
   mn = mean(x)
   sd = sd(x)

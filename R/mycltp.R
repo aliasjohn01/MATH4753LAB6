@@ -11,7 +11,7 @@
 #' @return a  Poisson Probability Distribution barplot
 #' @export
 #'
-#' @examples
+#' @examples mycltp(20,10000)
 #'
 mycltp=function(n,iter,lambda=10,...){
 
@@ -54,4 +54,4 @@ mycltp=function(n,iter,lambda=10,...){
 }
 
 
-mycltp(n=10,iter=10000)
+

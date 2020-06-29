@@ -11,7 +11,8 @@
 #' to (a).
 #' @export
 #'
-#' @examples
+#' @examples myncurve(10, 5, 6)
+#'
 myncurve=function(mu, sigma, a){
   curve(dnorm(x,mean=mu, sd=sigma), xlim=c(mu-3*sigma, mu + 3*sigma))
   xcurve=seq(0.0,a,length=10)
